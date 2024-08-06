@@ -4,7 +4,7 @@
     >
         <form-header class="mb-[24px]" />
 
-        <form class="grid grid-cols-2 gap-[16px]" @submit.prevent="onSubmit">
+        <form class="grid grid-cols-2 gap-[16px]" @submit.prevent>
             <v-input v-model="formData.firstName" placeholder="First name" />
 
             <v-input v-model="formData.lastName" placeholder="Last name" />
@@ -48,7 +48,7 @@
 <script lang="ts">
 import { ref } from "vue"
 import VInput from "@/components/shared/VInput.vue"
-import VButton from "~/components/shared/VButton.vue"
+import VButton from "@/components/shared/VButton.vue"
 import FormHeader from "./FormHeader.vue"
 import FormFooter from "./FormFooter.vue"
 
@@ -71,13 +71,8 @@ export default defineComponent({
             phone: "",
         })
 
-        const onSubmit = () => {
-            console.info(formData.value)
-        }
-
         return {
             formData,
-            onSubmit,
         }
     },
 })

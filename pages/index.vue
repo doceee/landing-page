@@ -1,17 +1,23 @@
 <template>
-    <main class="mx-auto w-full max-w-[1232px]">
-        <chance-to-win />
-    </main>
+    <div>
+        <main class="mx-auto w-full max-w-[1232px]">
+            <chance-to-win />
+        </main>
+
+        <the-footer />
+    </div>
 </template>
 
 <script lang="ts">
 import ChanceToWin from "@/components/sections/ChanceToWin.vue"
+import TheFooter from "~/components/footer/TheFooter.vue"
 
 export default defineComponent({
     name: "LandingPage",
 
     components: {
         ChanceToWin,
+        TheFooter,
     },
 
     setup() {
