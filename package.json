@@ -1,16 +1,31 @@
 {
-  "name": "landing-page",
-  "private": true,
-  "type": "module",
-  "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
-  },
-  "dependencies": {
-    "nuxt": "^3.12.4",
-    "vue": "latest"
-  }
+    "name": "landing-page",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "nuxt build",
+        "dev": "nuxt dev",
+        "generate": "nuxt generate",
+        "preview": "nuxt preview",
+        "postinstall": "nuxt prepare",
+        "lint": "eslint .",
+        "eslint": "eslint . --fix",
+        "prettier": "prettier . --write --ignore-path=.eslintignore"
+    },
+    "dependencies": {
+        "@nuxt/eslint": "^0.5.0",
+        "@nuxtjs/tailwindcss": "^6.12.1",
+        "nuxt": "^3.12.4",
+        "vue": "latest"
+    },
+    "devDependencies": {
+        "@nuxtjs/eslint-config-typescript": "^12.1.0",
+        "@tailwindcss/forms": "^0.5.7",
+        "eslint": "^8.57.0",
+        "eslint-config-prettier": "^9.1.0",
+        "eslint-plugin-prettier": "^5.2.1",
+        "prettier": "^3.3.3",
+        "prettier-plugin-tailwindcss": "^0.6.5",
+        "typescript": "^5.5.4"
+    }
 }

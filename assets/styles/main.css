@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "Roboto", sans-serif;
+    src:
+        url("../fonts/Roboto.ttf") format("truetype"),
+        url("../fonts/Roboto.woff2") format("woff2"),
+        url("../fonts/Roboto.woff") format("woff");
+}
+
+html {
+    font-family: "Roboto", sans-serif;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
