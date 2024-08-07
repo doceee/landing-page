@@ -16,7 +16,7 @@
 
 <script lang="ts">
 import FormSection from "@/components/sections/form-section/FormSection.vue"
-import TheFooter from "@/components/footer/TheFooter.vue"
+import TheFooter from "@/components/the-footer/TheFooter.vue"
 import CuriousAbout from "@/components/sections/curious-about/CuriousAbout.vue"
 import EveryoneBuzzing from "@/components/sections/EveryoneBuzzing.vue"
 import ChanceToWinHeader from "@/components/ChanceToWinHeader.vue"

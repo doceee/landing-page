@@ -5,7 +5,11 @@
         <form-header class="mb-[24px]" />
 
         <form id="form" class="grid grid-cols-2 gap-[16px]" @submit.prevent>
-            <v-input v-model="formData.firstName" placeholder="First name" />
+            <v-input
+                v-model="formData.firstName"
+                placeholder="First name"
+                classes="border-[#2D473E] placeholder:text-[#2D473E]"
+            />
 
             <v-input v-model="formData.lastName" placeholder="Last name" />
 
