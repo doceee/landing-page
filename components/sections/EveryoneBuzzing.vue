@@ -27,8 +27,8 @@
     </section-con>
 </template>
 <script lang="ts">
-import SectionCon from "../shared/SectionCon.vue"
-import SectionHeader from "../shared/SectionHeader.vue"
+import SectionCon from "@/components/shared/SectionCon.vue"
+import SectionHeader from "@/components/shared/SectionHeader.vue"
 
 export default defineComponent({
     components: {

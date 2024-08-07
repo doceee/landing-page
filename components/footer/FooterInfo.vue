@@ -3,7 +3,7 @@
         <div
             class="mx-auto grid w-full max-w-[1200px] grid-cols-[379px_378px_379px] gap-[32px] py-[24px]"
         >
-            <div v-for="item in data" :key="item.question" class="text-left">
+            <div v-for="(item, index) in data" :key="index" class="text-left">
                 <p class="mb-[4px] text-[12px] font-semibold">
                     {{ item.question }}
                 </p>

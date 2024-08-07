@@ -4,7 +4,7 @@
     >
         <form-header class="mb-[24px]" />
 
-        <form class="grid grid-cols-2 gap-[16px]" @submit.prevent>
+        <form id="form" class="grid grid-cols-2 gap-[16px]" @submit.prevent>
             <v-input v-model="formData.firstName" placeholder="First name" />
 
             <v-input v-model="formData.lastName" placeholder="Last name" />
@@ -38,7 +38,7 @@
             />
         </form>
 
-        <v-button type="submit" class="my-[24px] text-[16px]">
+        <v-button type="submit" form="form" class="my-[24px] text-[16px]">
             PROCEED TO PAYMENT
         </v-button>
 

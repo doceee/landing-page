@@ -7,8 +7,6 @@
             :class="classes"
             :type="type"
             :placeholder="placeholder"
-            @input="onInput"
-            @focus="onFocus"
         />
     </div>
 </template>
@@ -53,7 +51,7 @@ export default defineComponent({
         },
     },
 
-    emits: ["update:model-value", "focus", "input"],
+    emits: ["update:model-value"],
 
     computed: {
         computedModelValue: {
@@ -74,18 +72,6 @@ export default defineComponent({
 
                 this.$emit("update:model-value", parsedValue)
             },
-        },
-    },
-
-    methods: {
-        onInput(event: Event) {
-            const { value } = event.target as HTMLInputElement
-
-            this.$emit("input", value)
-        },
-
-        onFocus(event: Event) {
-            this.$emit("focus", event)
         },
     },
 })
