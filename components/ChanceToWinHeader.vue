@@ -1,5 +1,7 @@
 <template>
-    <header class="w-full max-w-[1200px] text-center">
+    <header
+        class="mx-auto mb-[23px] mt-[16px] w-full max-w-[1200px] text-center"
+    >
         <h1
             class="mb-[8px] text-[52px] font-extrabold leading-[52px] text-[#293632]"
         >

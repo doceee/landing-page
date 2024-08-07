@@ -1,9 +1,9 @@
 <template>
     <div>
-        <main class="mx-auto w-full max-w-[1232px]">
-            <chance-to-win />
+        <chance-to-win-header />
 
-            <top-tech-mystery-box-header />
+        <main class="mx-auto w-full max-w-[1232px]">
+            <form-section />
 
             <curious-about />
 
@@ -15,11 +15,11 @@
 </template>
 
 <script lang="ts">
-import ChanceToWin from "~/components/sections/chance-to-win/ChanceToWin.vue"
-import TheFooter from "~/components/footer/TheFooter.vue"
-import CuriousAbout from "~/components/sections/CuriousAbout.vue"
-import EveryoneBuzzing from "~/components/sections/EveryoneBuzzing.vue"
-import TopTechMysteryBoxHeader from "~/components/sections/headers/TopTechMysteryBoxHeader.vue"
+import FormSection from "@/components/sections/form-section/FormSection.vue"
+import TheFooter from "@/components/footer/TheFooter.vue"
+import CuriousAbout from "@/components/sections/curious-about/CuriousAbout.vue"
+import EveryoneBuzzing from "@/components/sections/EveryoneBuzzing.vue"
+import ChanceToWinHeader from "@/components/ChanceToWinHeader.vue"
 
 export default defineComponent({
     name: "LandingPage",
@@ -27,9 +27,9 @@ export default defineComponent({
     components: {
         EveryoneBuzzing,
         CuriousAbout,
-        ChanceToWin,
+        FormSection,
         TheFooter,
-        TopTechMysteryBoxHeader,
+        ChanceToWinHeader,
     },
 
     setup() {

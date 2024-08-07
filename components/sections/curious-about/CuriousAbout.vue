@@ -1,11 +1,12 @@
 <template>
     <section-con>
-        <div class="rounded-[30px]">
-            <img
-                src="@/assets/images/curious-about.png"
-                alt="an section image"
-            />
-        </div>
+        <top-tech-mystery-box-header class="col-span-2" />
+
+        <img
+            src="@/assets/images/curious-about.png"
+            alt="an section image"
+            class="rounded-[30px]"
+        />
 
         <div class="text-left">
             <section-header>
@@ -28,13 +29,15 @@
     </section-con>
 </template>
 <script lang="ts">
-import SectionCon from "../shared/SectionCon.vue"
-import SectionHeader from "../shared/SectionHeader.vue"
+import SectionCon from "@/components/shared/SectionCon.vue"
+import SectionHeader from "~/components/shared/SectionHeader.vue"
+import TopTechMysteryBoxHeader from "./TopTechMysteryBoxHeader.vue"
 
 export default defineComponent({
     components: {
         SectionCon,
         SectionHeader,
+        TopTechMysteryBoxHeader,
     },
 })
 </script>

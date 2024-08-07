@@ -1,19 +1,18 @@
 <template>
-    <chance-to-win-header />
+    <section class="flex items-center justify-between px-[16px]">
+        <electronics-preview />
 
-    <section class="grid grid-cols-2">
-        <div></div>
         <contact-form />
     </section>
 </template>
 
 <script lang="ts">
-import ChanceToWinHeader from "../headers/ChanceToWinHeader.vue"
 import ContactForm from "./contact-form/ContactForm.vue"
+import ElectronicsPreview from "./ElectronicsPreview.vue"
 
 export default defineComponent({
     components: {
-        ChanceToWinHeader,
+        ElectronicsPreview,
         ContactForm,
     },
 })

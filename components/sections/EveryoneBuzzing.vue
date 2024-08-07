@@ -1,5 +1,5 @@
 <template>
-    <section-con>
+    <section-con class="my-[48px]">
         <div class="text-left">
             <section-header>
                 Why is everyone buzzing about these boxes?
@@ -19,12 +19,11 @@
             </p>
         </div>
 
-        <div class="rounded-[30px]">
-            <img
-                src="@/assets/images/everyone-buzzing.png"
-                alt="an section image"
-            />
-        </div>
+        <img
+            src="@/assets/images/everyone-buzzing.png"
+            alt="an section image"
+            class="rounded-[30px]"
+        />
     </section-con>
 </template>
 <script lang="ts">
