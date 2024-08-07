@@ -1,6 +1,9 @@
 <template>
-    <footer-info />
-    <credit-cards />
+    <footer>
+        <footer-info />
+
+        <credit-cards />
+    </footer>
 </template>
 
 <script lang="ts">

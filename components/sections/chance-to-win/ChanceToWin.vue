@@ -8,8 +8,8 @@
 </template>
 
 <script lang="ts">
-import ChanceToWinHeader from "../chance-to-win/ChanceToWinHeader.vue"
-import ContactForm from "../chance-to-win/contact-form/ContactForm.vue"
+import ChanceToWinHeader from "../headers/ChanceToWinHeader.vue"
+import ContactForm from "./contact-form/ContactForm.vue"
 
 export default defineComponent({
     components: {

@@ -1,6 +1,8 @@
 <template>
-    <header class="text-center">
-        <h1 class="text-[52px] font-extrabold text-[#293632]">
+    <header class="w-full max-w-[1200px] text-center">
+        <h1
+            class="mb-[8px] text-[52px] font-extrabold leading-[52px] text-[#293632]"
+        >
             Chance to win a StockX <br />
             Mystery Box today!
         </h1>
