@@ -8,7 +8,7 @@
 
 <script lang="ts">
 import ContactForm from "./contact-form/ContactForm.vue"
-import ElectronicsPreview from "./ElectronicsPreview.vue"
+import ElectronicsPreview from "./electronics-preview/ElectronicsPreview.vue"
 
 export default defineComponent({
     components: {

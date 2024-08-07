@@ -1,14 +1,12 @@
 <template>
-    <div>
-        <input
-            :id="id"
-            v-model="computedModelValue"
-            class="block w-full flex-1 rounded-[10px] border-[1px] border-[#ADADAD] bg-transparent px-[16px] py-[12px] text-base text-[#2D473E] outline-none placeholder:font-normal placeholder:text-[#808080] focus:border-[1px] focus:border-[#2D473E] focus:placeholder:text-[#2D473E]"
-            :class="classes"
-            :type="type"
-            :placeholder="placeholder"
-        />
-    </div>
+    <input
+        :id="id"
+        v-model="computedModelValue"
+        class="block h-[48px] w-full flex-1 rounded-[10px] border-[1px] border-[#ADADAD] bg-transparent px-[16px] py-[12px] text-base text-[#2D473E] outline-none placeholder:font-normal placeholder:text-[#808080] focus:border-[1px] focus:border-[#2D473E] focus:ring-0 focus:placeholder:text-[#2D473E]"
+        :class="classes"
+        :type="type"
+        :placeholder="placeholder"
+    />
 </template>
 
 <script lang="ts">

@@ -1,6 +1,6 @@
 <template>
     <div>
-        <chance-to-win-header />
+        <the-header />
 
         <main class="mx-auto w-full max-w-[1232px]">
             <form-section />
@@ -19,7 +19,7 @@ import FormSection from "@/components/sections/form-section/FormSection.vue"
 import TheFooter from "@/components/the-footer/TheFooter.vue"
 import CuriousAbout from "@/components/sections/curious-about/CuriousAbout.vue"
 import EveryoneBuzzing from "@/components/sections/EveryoneBuzzing.vue"
-import ChanceToWinHeader from "@/components/ChanceToWinHeader.vue"
+import TheHeader from "@/components/TheHeader.vue"
 
 export default defineComponent({
     name: "LandingPage",
@@ -29,7 +29,7 @@ export default defineComponent({
         CuriousAbout,
         FormSection,
         TheFooter,
-        ChanceToWinHeader,
+        TheHeader,
     },
 
     setup() {

@@ -8,7 +8,7 @@
             <v-input
                 v-model="formData.firstName"
                 placeholder="First name"
-                classes="border-[#2D473E] placeholder:text-[#2D473E]"
+                classes="!border-[#2D473E] placeholder:!text-[#2D473E]"
             />
 
             <v-input v-model="formData.lastName" placeholder="Last name" />
