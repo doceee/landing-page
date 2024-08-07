@@ -8,19 +8,19 @@
             class="rounded-[30px]"
         />
 
-        <div class="text-left">
+        <div class="text-left text-base">
             <section-header>
                 Curious about the
                 <span class="text-primary">StockX</span> Mystery Box?
             </section-header>
 
-            <p class="mb-[8px] text-base">
+            <p class="mb-[8px]">
                 Experience the thrill of unboxing cutting-edge gadgets with
                 Stockx Mystery Boxes. Each box is a treasure trove of
                 high-quality electronics, handpicked to elevate your tech game.
             </p>
 
-            <p classs="text-base">
+            <p>
                 Expect the unexpected! Our boxes are packed with the latest
                 gadgets, from smartphones to gaming consoles, ensuring you get
                 the best tech surprises every time.

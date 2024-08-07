@@ -34,7 +34,7 @@ export default defineComponent({
 
     setup() {
         useHead({
-            title: "Langind Page",
+            title: "Landing Page",
             meta: [
                 {
                     name: "keywords",

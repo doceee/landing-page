@@ -1,17 +1,17 @@
 <template>
     <section-con class="my-[48px]">
-        <div class="text-left">
+        <div class="text-left text-base">
             <section-header>
                 Why is everyone buzzing about these boxes?
             </section-header>
 
-            <p class="mb-[8px] text-base">
+            <p class="mb-[8px]">
                 StockX Mystery Boxes are not just about products; they’re about
                 the experience. Imagine the excitement of unveiling top-tier
                 electronics at a fraction of the cost.
             </p>
 
-            <p classs="text-base">
+            <p>
                 Our boxes include a variety of premium tech items, making it a
                 must-have for every tech enthusiast. Join the buzz and see why
                 everyone is raving about the unbeatable value and surprise

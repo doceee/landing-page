@@ -1,9 +1,9 @@
 <template>
     <div class="w-full bg-[#F5F5F5]">
         <div
-            class="mx-auto grid w-full max-w-[1200px] grid-cols-[379px_378px_379px] gap-[32px] py-[24px]"
+            class="mx-auto grid w-full max-w-[1200px] grid-cols-[379px_378px_379px] gap-[32px] py-[24px] text-left"
         >
-            <div v-for="(item, index) in data" :key="index" class="text-left">
+            <div v-for="(item, index) in data" :key="index">
                 <p class="mb-[4px] text-[12px] font-semibold">
                     {{ item.question }}
                 </p>
